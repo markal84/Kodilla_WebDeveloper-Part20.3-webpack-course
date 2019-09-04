@@ -1,5 +1,8 @@
 import React from 'react';
 import style from './App.css';
+import uuid from 'uuid';
+import Title from '../components/Title';
+import todoList from '../components/TodoList';
 
 class App extends React.Component {
     constructor(props){
@@ -23,7 +26,7 @@ class App extends React.Component {
     render() {
         return (
             <div className={style.TodoApp}>
-                Tutaj pojawią się komponenty naszej aplikacji.
+                <Title title = {"Test App title"} todoList={"Number of tasks added: " + todoList.length} />
             </div>
         );
     }

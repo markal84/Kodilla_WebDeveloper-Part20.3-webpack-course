@@ -26,7 +26,8 @@ class App extends React.Component {
     render() {
         return (
             <div className={style.TodoApp}>
-                <Title title = {"Test App title"} todoList={"Number of tasks added: " + todoList.length} />
+                <Title title = {"Todo List App"} 
+                todoList={"Number of tasks added: " + todoList.length} />
             </div>
         );
     }

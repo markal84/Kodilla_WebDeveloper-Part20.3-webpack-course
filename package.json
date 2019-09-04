@@ -18,11 +18,13 @@
     "optimize-js-plugin": "0.0.4",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "style-loader": "^1.0.0"
+    "react-hot-loader": "^4.12.12",
+    "style-loader": "^1.0.0",
+    "webpack-dev-server": "^3.8.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack --env development",
+    "start": "webpack-dev-server --hot --env development",
     "build": "webpack --env production"
   },
   "author": "",

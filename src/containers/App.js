@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './App.css';
 import uuid from 'uuid';
+import { hot } from 'react-hot-loader';
 import Title from '../components/Title';
 import TodoList from '../components/TodoList';
 
@@ -20,6 +21,10 @@ class App extends React.Component {
                 {
                 id: 3,
                 text: 'feed my cat'
+                },
+                {
+                id: 4,
+                text: 'learn how to code properly'
                 }
             ]
         };
@@ -47,4 +52,4 @@ class App extends React.Component {
     }
 }
 
-export default App;
+export default hot(module)(App);

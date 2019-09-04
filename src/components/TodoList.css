@@ -1,0 +1,9 @@
+.TodoTask {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-inline-start: 0;
+}
+
+.TodoTask {
+    list-style: none;
+}
